@@ -6,6 +6,9 @@ public class FizzBuzz {
     private static final String BUZZ = "Buzz";
 
     public String convert(int number) {
+        if (number % 15 == 0) {
+            return "FizzBuzz";
+        }
         if (number % 3 == 0) {
             return FIZZ;
         }
