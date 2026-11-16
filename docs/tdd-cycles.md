@@ -25,3 +25,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | RED | fizzbuzz - require Buzz for multiples of 5 | 107 | 2 | The previous implementation returns ordinary number strings. |
 | GREEN | fizzbuzz - implement the multiples-of-5 rule | 107 | 0 | All six existing FizzBuzz cases pass. |
 | BLUE | fizzbuzz - name both reusable output strings | 107 | 0 | Refactor without adding behavior. |
+| RED | fizzbuzz - combine both rules for 15 and 30 | 109 | 2 | The combined case must take precedence over Fizz alone. |

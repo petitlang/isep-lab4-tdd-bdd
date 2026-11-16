@@ -5,3 +5,5 @@ number,expected
 5,Buzz
 6,Fizz
 10,Buzz
+15,FizzBuzz
+30,FizzBuzz
