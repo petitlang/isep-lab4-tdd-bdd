@@ -16,3 +16,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | RED | prime - cover every integer from 0 through 100 | 101 | 24 | Expected values use an explicit list of the 25 primes, independent of the checker. |
 | GREEN | prime - implement trial division | 101 | 0 | All 101 cases pass with the general implementation. |
 | BLUE | prime - stop trial division at the square root | 101 | 0 | Preserve all results and avoid multiplication overflow. |
+| RED | fizzbuzz - represent ordinary numbers as strings | 103 | 2 | The new converter is unimplemented. |
