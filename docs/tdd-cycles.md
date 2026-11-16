@@ -9,3 +9,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | --- | --- | ---: | ---: | --- |
 | RED | prime - 0 is not prime | 1 | 1 | The unimplemented checker fails the first test. |
 | GREEN | prime - handle the first non-prime case | 1 | 0 | The minimal implementation returns false. |
+| BLUE | prime - review the first implementation | 1 | 0 | No refactoring is needed, as permitted by slide 19. |
