@@ -1,0 +1,42 @@
+name: Java tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: JDK ${{ matrix.java }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        java: ['17', '21']
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+          cache: maven
+      - name: Check generated Roman numeral examples
+        run: python3 tools/generate_roman_examples.py --check
+      - name: Run JUnit, Cucumber and coverage checks
+        run: ./mvnw -B -ntp clean verify
+      - name: Upload test and coverage reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports-java-${{ matrix.java }}
+          path: |
+            target/surefire-reports/
+            target/cucumber-report.html
+            target/cucumber-report.json
+            target/site/jacoco/
