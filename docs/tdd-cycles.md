@@ -22,3 +22,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | RED | fizzbuzz - require Fizz for multiples of 3 | 105 | 2 | Add the first divisibility rule. |
 | GREEN | fizzbuzz - implement the multiples-of-3 rule | 105 | 0 | Existing ordinary numbers still pass. |
 | BLUE | fizzbuzz - name the Fizz result | 105 | 0 | Extract a constant for later combined output. |
+| RED | fizzbuzz - require Buzz for multiples of 5 | 107 | 2 | The previous implementation returns ordinary number strings. |
