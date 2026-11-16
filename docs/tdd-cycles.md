@@ -31,3 +31,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | RED | roman - specify the seven introductory Gherkin scenarios | 208 | 7 | Cucumber executes Given/When/Then and fails on the unimplemented converter. |
 | GREEN | roman - satisfy the introductory examples | 208 | 0 | The seven agreed examples pass before expanding the requirement. |
 | BLUE | roman - consolidate the seed scenarios into an outline | 208 | 0 | Preserve seven executable examples while removing duplicate steps. |
+| RED | roman - expand executable scenarios through 1000 | 1201 | 993 | 993 new cases fail against the intentionally limited implementation. |
