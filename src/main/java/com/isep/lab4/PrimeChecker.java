@@ -6,7 +6,9 @@ public class PrimeChecker {
         if (number < 2) {
             return false;
         }
-        for (int divisor = 2; divisor < number; divisor++) {
+        // A composite number has a factor at most its square root.
+        // Division avoids overflow from divisor * divisor for large integers.
+        for (int divisor = 2; divisor <= number / divisor; divisor++) {
             if (number % divisor == 0) {
                 return false;
             }

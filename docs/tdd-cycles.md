@@ -15,3 +15,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | BLUE | prime - parameterize the repeated non-prime assertions | 3 | 0 | Refactor tests without changing behavior. |
 | RED | prime - cover every integer from 0 through 100 | 101 | 24 | Expected values use an explicit list of the 25 primes, independent of the checker. |
 | GREEN | prime - implement trial division | 101 | 0 | All 101 cases pass with the general implementation. |
+| BLUE | prime - stop trial division at the square root | 101 | 0 | Preserve all results and avoid multiplication overflow. |
