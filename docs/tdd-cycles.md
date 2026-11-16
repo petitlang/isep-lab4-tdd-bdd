@@ -32,3 +32,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | GREEN | roman - satisfy the introductory examples | 208 | 0 | The seven agreed examples pass before expanding the requirement. |
 | BLUE | roman - consolidate the seed scenarios into an outline | 208 | 0 | Preserve seven executable examples while removing duplicate steps. |
 | RED | roman - expand executable scenarios through 1000 | 1201 | 993 | 993 new cases fail against the intentionally limited implementation. |
+| GREEN | roman - implement descending Roman symbol conversion | 1201 | 0 | All 1000 cases pass, including subtractive pairs IV IX XL XC CD CM. |
