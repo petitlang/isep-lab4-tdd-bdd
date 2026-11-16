@@ -17,3 +17,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | GREEN | prime - implement trial division | 101 | 0 | All 101 cases pass with the general implementation. |
 | BLUE | prime - stop trial division at the square root | 101 | 0 | Preserve all results and avoid multiplication overflow. |
 | RED | fizzbuzz - represent ordinary numbers as strings | 103 | 2 | The new converter is unimplemented. |
+| GREEN | fizzbuzz - return the input string | 103 | 0 | The two ordinary inputs now pass. |
