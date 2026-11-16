@@ -8,3 +8,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | Phase | Commit subject | Executed tests | Failing/error tests | Notes |
 | --- | --- | ---: | ---: | --- |
 | RED | prime - 0 is not prime | 1 | 1 | The unimplemented checker fails the first test. |
+| GREEN | prime - handle the first non-prime case | 1 | 0 | The minimal implementation returns false. |
