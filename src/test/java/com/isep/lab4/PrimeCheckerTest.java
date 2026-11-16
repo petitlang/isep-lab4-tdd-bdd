@@ -12,4 +12,14 @@ class PrimeCheckerTest {
         assertFalse(checker.isPrime(0));
     }
 
+    @Test
+    void oneIsNotPrime() {
+        assertFalse(checker.isPrime(1));
+    }
+
+    @Test
+    void twoIsPrime() {
+        assertTrue(checker.isPrime(2));
+    }
+
 }
