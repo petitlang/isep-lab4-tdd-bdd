@@ -13,3 +13,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | RED | prime - distinguish 2 from 0 and 1 | 3 | 1 | The test for 1 is already green; 2 creates the next red. |
 | GREEN | prime - recognize 2 | 3 | 0 | All three existing cases pass. |
 | BLUE | prime - parameterize the repeated non-prime assertions | 3 | 0 | Refactor tests without changing behavior. |
+| RED | prime - cover every integer from 0 through 100 | 101 | 24 | Expected values use an explicit list of the 25 primes, independent of the checker. |
