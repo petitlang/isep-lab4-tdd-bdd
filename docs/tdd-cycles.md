@@ -28,3 +28,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | RED | fizzbuzz - combine both rules for 15 and 30 | 109 | 2 | The combined case must take precedence over Fizz alone. |
 | GREEN | fizzbuzz - handle common multiples first | 109 | 0 | All four result categories pass. |
 | BLUE | fizzbuzz - reuse named outputs and verify 1 through 100 | 201 | 0 | Codex-assisted expansion of the independent expected-value fixture. |
+| RED | roman - specify the seven introductory Gherkin scenarios | 208 | 7 | Cucumber executes Given/When/Then and fails on the unimplemented converter. |
