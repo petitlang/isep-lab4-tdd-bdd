@@ -1,37 +1,18 @@
 Feature: Roman numeral conversion
-  Convert positive integers to standard Roman numerals.
+  Convert positive integers to their standard Roman numeral representation.
 
-  Scenario: Convert 1 to I
+  @seed
+  Scenario Outline: Convert the introductory examples
     Given a Roman numeral converter
-    When I convert 1
-    Then the Roman numeral should be "I"
+    When I convert <number>
+    Then the Roman numeral should be "<roman>"
 
-  Scenario: Convert 2 to II
-    Given a Roman numeral converter
-    When I convert 2
-    Then the Roman numeral should be "II"
-
-  Scenario: Convert 3 to III
-    Given a Roman numeral converter
-    When I convert 3
-    Then the Roman numeral should be "III"
-
-  Scenario: Convert 4 to IV
-    Given a Roman numeral converter
-    When I convert 4
-    Then the Roman numeral should be "IV"
-
-  Scenario: Convert 5 to V
-    Given a Roman numeral converter
-    When I convert 5
-    Then the Roman numeral should be "V"
-
-  Scenario: Convert 9 to IX
-    Given a Roman numeral converter
-    When I convert 9
-    Then the Roman numeral should be "IX"
-
-  Scenario: Convert 10 to X
-    Given a Roman numeral converter
-    When I convert 10
-    Then the Roman numeral should be "X"
+    Examples:
+      | number | roman |
+      | 1 | I |
+      | 2 | II |
+      | 3 | III |
+      | 4 | IV |
+      | 5 | V |
+      | 9 | IX |
+      | 10 | X |

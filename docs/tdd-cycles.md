@@ -30,3 +30,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | BLUE | fizzbuzz - reuse named outputs and verify 1 through 100 | 201 | 0 | Codex-assisted expansion of the independent expected-value fixture. |
 | RED | roman - specify the seven introductory Gherkin scenarios | 208 | 7 | Cucumber executes Given/When/Then and fails on the unimplemented converter. |
 | GREEN | roman - satisfy the introductory examples | 208 | 0 | The seven agreed examples pass before expanding the requirement. |
+| BLUE | roman - consolidate the seed scenarios into an outline | 208 | 0 | Preserve seven executable examples while removing duplicate steps. |
