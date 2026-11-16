@@ -12,3 +12,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | BLUE | prime - review the first implementation | 1 | 0 | No refactoring is needed, as permitted by slide 19. |
 | RED | prime - distinguish 2 from 0 and 1 | 3 | 1 | The test for 1 is already green; 2 creates the next red. |
 | GREEN | prime - recognize 2 | 3 | 0 | All three existing cases pass. |
+| BLUE | prime - parameterize the repeated non-prime assertions | 3 | 0 | Refactor tests without changing behavior. |
