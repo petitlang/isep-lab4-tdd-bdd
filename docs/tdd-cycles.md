@@ -33,3 +33,4 @@ second student or GitHub Copilot contribution is claimed. OpenAI Codex assisted 
 | BLUE | roman - consolidate the seed scenarios into an outline | 208 | 0 | Preserve seven executable examples while removing duplicate steps. |
 | RED | roman - expand executable scenarios through 1000 | 1201 | 993 | 993 new cases fail against the intentionally limited implementation. |
 | GREEN | roman - implement descending Roman symbol conversion | 1201 | 0 | All 1000 cases pass, including subtractive pairs IV IX XL XC CD CM. |
+| BLUE | roman - keep symbol values together in an immutable table | 1201 | 0 | Avoid paired arrays and reconstructing conversion tables on every call. |
